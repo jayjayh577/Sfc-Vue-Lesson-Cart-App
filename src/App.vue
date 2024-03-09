@@ -301,7 +301,7 @@ export default {
     });
   
   if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("/service-worker.js");
+    navigator.serviceWorker.register("Sfc-Vue-Lesson-Cart-App/service-worker.js");
   }
 },
 
