@@ -296,12 +296,12 @@ export default {
     .then(function (response) {
       response.json()
         .then(function (json) {
-          webstore.lesons = json;
+          webstore.lessons = json;
         });
     });
   
   if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("/service-worker.js");
+    navigator.serviceWorker.register("service-worker.js");
   }
 },
 
